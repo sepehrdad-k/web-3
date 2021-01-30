@@ -1,8 +1,8 @@
 let myform=document.getElementById("forms")
 let input=document.getElementById("mytask")
+let mylist=document.getElementById("mylist")
 myform.onsubmit=function(d){
     d.preventDefault()
-    let mylist=document.getElementById("mylist")
     let task=document.createElement("li")
     task.innerText=input.value
     let btn=document.createElement("button")
