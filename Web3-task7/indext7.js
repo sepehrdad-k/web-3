@@ -33,6 +33,10 @@ fetch('https://jsonplaceholder.typicode.com/posts')
         let pr=opt_dlt.parentElement
         let pr2=pr.parentElement
         let pr3=pr2.getElementsByClassName("number")
+        fetch(`https://jsonplaceholder.typicode.com/posts/1`, {
+        method: 'DELETE',
+        });
+        pr2.remove()
         console.log(pr3)
       }
     }
