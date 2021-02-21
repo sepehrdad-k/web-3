@@ -1,0 +1,8 @@
+.cont{
+    position: fixed;
+    left: 40%;
+    top: 200px;
+    padding: 50px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
